@@ -1,0 +1,19 @@
+# Python environments & cache
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model weights (exceeds GitHub 100MB limit; retrain via train_dataset.py)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Node / Frontend dependencies (keep dist/ and src/)
+frontend/node_modules/
+
+# Local binaries & OS artifacts
+bin/
+.DS_Store
+*.log
